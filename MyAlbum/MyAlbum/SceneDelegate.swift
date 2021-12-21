@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  New_album
+//  MyAlbum
 //
 //  Created by bb on 2021/12/21.
 //
