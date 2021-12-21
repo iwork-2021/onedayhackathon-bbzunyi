@@ -8,9 +8,10 @@
 import UIKit
 
 class MainTableViewController: UITableViewController{
-
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //self.view.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
        
         // Uncomment the following line to preserve selection between presentations
@@ -21,12 +22,16 @@ class MainTableViewController: UITableViewController{
     }
 
     @IBAction func ChooseWay(_ sender: Any) {
+        let PhotoViewController = self.storyboard!.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        //_ = PhotoViewController.view
         let alertController = UIAlertController(title: "选择方式", message: nil, preferredStyle: .actionSheet)
         let Action1 = UIAlertAction(title: "Choose from Album", style: .default, handler:{ (alert: UIAlertAction!) -> Void in
-                    print("删除")
+            self.navigationController?.pushViewController(PhotoViewController, animated: true)
+            PhotoViewController.choosePhoto()
                 })
         let Action2 = UIAlertAction(title: "Take a photo", style: .default, handler: { (alert: UIAlertAction!) -> Void in
-                    print("保存")
+            self.navigationController?.pushViewController(PhotoViewController, animated: true)
+            PhotoViewController.takePicture()
                 })
         let Action3 = UIAlertAction(title: "Cancel", style: .cancel, handler: { (alert: UIAlertAction!) -> Void in
                     print("取消")

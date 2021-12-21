@@ -16,6 +16,7 @@
 		043597C0277192080009F029 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043597BD277192080009F029 /* MainTableViewController.swift */; };
 		043597C1277192090009F029 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043597BE277192080009F029 /* PhotoTableViewCell.swift */; };
 		043597C5277192E70009F029 /* snacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 043597C4277192E70009F029 /* snacks.mlmodel */; };
+		043597C727719E150009F029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043597C627719E150009F029 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		043597BD277192080009F029 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		043597BE277192080009F029 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		043597C4277192E70009F029 /* snacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = snacks.mlmodel; path = ../snacks.mlmodel; sourceTree = "<group>"; };
+		043597C627719E150009F029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,9 @@
 				043597AA277191CF0009F029 /* SceneDelegate.swift */,
 				043597AE277191CF0009F029 /* Main.storyboard */,
 				043597B1277191D20009F029 /* Assets.xcassets */,
-				043597BC277192080009F029 /* CGImagePropertyOrientation.swift */,
 				043597BD277192080009F029 /* MainTableViewController.swift */,
+				043597C627719E150009F029 /* ViewController.swift */,
+				043597BC277192080009F029 /* CGImagePropertyOrientation.swift */,
 				043597BE277192080009F029 /* PhotoTableViewCell.swift */,
 				043597B3277191D20009F029 /* LaunchScreen.storyboard */,
 				043597B6277191D20009F029 /* Info.plist */,
@@ -151,6 +154,7 @@
 				043597C0277192080009F029 /* MainTableViewController.swift in Sources */,
 				043597A9277191CF0009F029 /* AppDelegate.swift in Sources */,
 				043597C5277192E70009F029 /* snacks.mlmodel in Sources */,
+				043597C727719E150009F029 /* ViewController.swift in Sources */,
 				043597BF277192080009F029 /* CGImagePropertyOrientation.swift in Sources */,
 				043597AB277191CF0009F029 /* SceneDelegate.swift in Sources */,
 			);
